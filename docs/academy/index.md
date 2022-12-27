@@ -14,6 +14,8 @@ sidebar_position: 0
   </div>
 </div>
 
+<!-- TODO - convert list of cards into some sort of JSON-like data & auto-generate the list -->
+
 import AcademyCard from '/src/components/Academy/card.jsx';
 
 <!-- <h2>Programs</h2><p><hr/></p>
@@ -68,7 +70,7 @@ import AcademyCard from '/src/components/Academy/card.jsx';
   <div class="col col--4">
     <AcademyCard 
       title="1.2 Weaviate Cloud Service (WCS)" 
-      body="What is WCS, and get started using it." 
+      body="What is WCS, and how to get started with it." 
       buttonType="Click here" 
       badgeType="practical"/>
   </div>
@@ -91,8 +93,8 @@ import AcademyCard from '/src/components/Academy/card.jsx';
   </div>
   <div class="col col--4">
     <AcademyCard 
-      title="1.5 Vectorizer selection: The basics" 
-      body="Selecting a vectorizer based on your data and task types." 
+      title="1.5 Vectorizers selection: The basics" 
+      body="Select a good, baseline vectorizer for each data and task type." 
       buttonType="Click here" 
       badgeType="theory"/>
   </div>
