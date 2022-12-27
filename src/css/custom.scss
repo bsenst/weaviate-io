@@ -222,6 +222,25 @@
   .__previousStepContainer .__previousStepHelper:hover {
     text-decoration: underline;
   }  
+
+  // Weaviate academy
+  .__academyhero {
+    background-color: #00152b;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+    padding: 0;
+  }
+  
+  .__academycard {
+    background-color: transparent;
+    border-color: #404040;
+    border-style: solid;
+  }  
+
+  .__academy_cardgroup {
+    margin-bottom: 10px;
+  }    
 }
 
 .theme-doc-sidebar-menu {

@@ -109,6 +109,12 @@ const config = {
                                 type: 'doc',
                             },
                             {
+                                label: 'Academy',
+                                docId: 'academy/index',
+                                sidebarid: 'academySidebar',
+                                type: 'doc',
+                            },                            
+                            {
                                 label: 'Contributor Guide',
                                 docId: 'contributor-guide/index',
                                 sidebarid: 'contributorSidebar',
