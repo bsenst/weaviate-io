@@ -4,7 +4,7 @@ sidebar_position: 0
 ---
 <div class="hero shadow--lw __academyhero">
   <div class="container">
-    <h1 class="hero__title">Become a leader of the AI revolution</h1>
+    <h1 class="hero__title">[[ Aspirational phrase ]]</h1>
     <p class="hero__subtitle">Learn in-demand skills needed to get the most out of data and AI models with Weaviate.</p>
     <div>
       <button class="button button--secondary button--outline button--lg">
@@ -110,21 +110,21 @@ import AcademyCard from '/src/components/Academy/card.jsx';
 <div class="row __academy_cardgroup">
   <div class="col col--4">
     <AcademyCard 
-      title="Weaviate Clients" 
+      title="1.7 Weaviate Clients" 
       body="The basics about Weaviate clients - what's available, and what you can do with them" 
       buttonType="Click here" 
       badgeType="mixed"/>
   </div>
   <div class="col col--4">
     <AcademyCard 
-      title="1.7 Data import" 
+      title="1.8 Data import" 
       body="How to efficiently import data into Weaviate" 
       buttonType="Click here" 
       badgeType="practical"/>
   </div>
   <div class="col col--4">
     <AcademyCard 
-      title="1.8 CRUD operations" 
+      title="1.9 CRUD operations" 
       body="How to perform other basic object manipulations in Weaviate" 
       buttonType="Click here" 
       badgeType="practical"/>
@@ -136,21 +136,21 @@ import AcademyCard from '/src/components/Academy/card.jsx';
 <div class="row __academy_cardgroup">
   <div class="col col--4">
     <AcademyCard 
-      title="1.9 Queries 2 (Advanced)" 
+      title="1.10 Queries 2 (Advanced)" 
       body="Learn about different types of queries, how to perform them and tune them." 
       buttonType="Click here" 
       badgeType="practical"/>
   </div>   
   <div class="col col--4">
     <AcademyCard 
-      title="1.10 Indexing (Advanced)" 
+      title="1.11 Indexing (Advanced)" 
       body="Learn about how Weaviate indexes data and how what enables fast retrieval." 
       buttonType="Click here" 
       badgeType="theory"/>
   </div>  
   <div class="col col--4">
     <AcademyCard 
-      title="1.11 Schema 2 (Advanced)" 
+      title="1.12 Schema 2 (Advanced)" 
       body="Manage cross-referencing, vectorization and indexing through the schema options" 
       buttonType="Click here" 
       badgeType="practical"/>
