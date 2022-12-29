@@ -1,8 +1,5 @@
 import React from 'react';
 
-// TODO: Implement dynamic row creation like this
-// https://stackoverflow.com/questions/68322423/how-to-create-a-dynamic-grid-in-react-js
-
 function AcademyCard(props) {
 
   let badgeClass = ""
@@ -16,6 +13,9 @@ function AcademyCard(props) {
   } else if (props.badgeType == "practical") {
     badgeClass = "badge badge--info";
     badgeTxt = "Practical";
+  } else if (props.badgeType == "course") {
+    badgeClass = "badge badge--primary";
+    badgeTxt = "Course";    
   } else if (props.badgeType == "mixed") {
     badgeClass = "badge badge--warning";
     badgeTxt = "Mixed";    
