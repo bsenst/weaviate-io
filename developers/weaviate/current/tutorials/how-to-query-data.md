@@ -32,7 +32,7 @@ redirect_from:
 
 **1. Define a query.**
 
-   The easiest GraphQL queries to get data from Weaviate are [`Get{}`](../graphql-references/get.html) queries. Let's say we want to retrieve all the articles (there title, authors, url and wordCount) that are published by "Wired", the GraphQL query will look as follows:
+   The easiest GraphQL queries to get data from Weaviate are [`Get{}`](../graphql-references/get.html) queries. Let's say we want to retrieve all the articles (their title, authors, url and wordCount) that are published by "Wired", the GraphQL query will look as follows:
 
    ```graphql
     {
